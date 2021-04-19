@@ -1,0 +1,10 @@
+{
+    "name": "hwrld",
+    "version": "1.0.0",
+    "description": "Cobia types (entities or models) library",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "/dist"
+    ]
+}
