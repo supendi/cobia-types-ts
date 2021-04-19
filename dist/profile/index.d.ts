@@ -1,7 +1,7 @@
 /**
- * Represents the player model
+ * Represents the personil model
  */
-export interface Player {
+export interface Personil {
     name: string;
     positions: string[];
     picURL: string;
@@ -30,7 +30,7 @@ export interface Profile {
     profilePicURL: string;
     genres: string[];
     description: string;
-    personil?: Player[];
+    personils?: Personil[];
     videos?: Video[];
     songList?: Song[];
     albums: Album[];
