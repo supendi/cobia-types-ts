@@ -1,5 +1,6 @@
-import * as account from './account'
-import *  as profile from './profile'
+import { Account, AccountGetRequest, AccountUpdateRequest, LoginRequest, Registrant } from './account'
+import { Profile, Album, Player, ProfileRow, Song, Video } from './profile'
 
-export { account, profile }
+export type { Profile, Album, Player, ProfileRow, Song, Video }
+export type { Account, AccountGetRequest, AccountUpdateRequest, LoginRequest, Registrant }
 

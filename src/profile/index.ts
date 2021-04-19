@@ -1,4 +1,6 @@
-//Represents the account profile
+/**
+ * Represents the player model
+ */
 export interface Player {
     name: string
     positions: string[],
