@@ -6,5 +6,22 @@
     "types": "dist/index.d.ts",
     "files": [
         "/dist"
-    ]
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "clean": "rm -rf ./dist",
+        "compile": "tsc",
+        "clean-compile": "yarn clean && yarn compile"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/supendi/cobia-web-lib.git"
+    },
+    "author": "Supendi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/supendi/cobia-web-lib/issues"
+    },
+    "homepage": "https://github.com/supendi/cobia-web-lib#readme",
+    "dependencies": {}
 }

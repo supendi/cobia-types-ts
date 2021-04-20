@@ -28,9 +28,3 @@ export interface AccountUpdateRequest {
 export interface AccountGetRequest {
     accountId: string
 }
-
-//Represents the request model for login
-export interface LoginRequest {
-    username: string
-    password: string
-}
