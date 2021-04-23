@@ -11,7 +11,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "clean": "rm -rf ./dist",
         "compile": "tsc",
-        "clean-compile": "yarn clean && yarn compile"
+        "build": "yarn clean && yarn compile"
     },
     "repository": {
         "type": "git",
